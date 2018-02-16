@@ -3,6 +3,6 @@ background-image: url(../images/backgrounds/landing.jpg);
   background-size: cover;
 }
 
-.row{
-  float: right;
+#id{
+  background: url (../images/foodtop/breakfast.jpg)
 }
