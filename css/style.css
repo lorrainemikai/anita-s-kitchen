@@ -1,6 +1,7 @@
 .jumbotron{
 background-image: url(../images/backgrounds/landing.jpg);
   background-size: cover;
+  height: 100vh;
 }
 
 #id{
@@ -27,7 +28,7 @@ background-image: url(../images/backgrounds/landing.jpg);
   padding: 0;
 }
 .bgFoods{
-  background-image:url(../images/assets/backgrounds/foodsBg.jpg);
+  background-image:url(../images/backgrounds/foodsBg.jpg);
   padding: 0;
   height: 600px;
   width:100%;
@@ -179,4 +180,13 @@ color: #ffffff;
 }
 #breakfast:hover .overlay-row{
   opacity: 3;
+}
+.nyanyez{
+  background-image:url(../images/backgrounds/subscribe.jpg);
+  padding: 0;
+  height: 600px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
