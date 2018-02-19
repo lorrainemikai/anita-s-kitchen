@@ -140,15 +140,25 @@
 </div>
 <!--im almost done!!!-->
 <div class="col-md-12 nyanyez">
-  <h1 style="text-align:center; color:#ffffff;">Get our daily food item delivered to your email</h1>
-  <form class="form-inline" style="text-align: center;">
-    <label class="sr-only" for="inlineFormInputGroupUsername2">e-mail</label>
-    <div class="input-group mb-2 mr-sm-2" >
-      <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="e-mail" style="margin: 20px;background:rgba(250,250,250,0.9);padding: 6px;width: 40%;margin-bottom: 20px;border-bottom-width: 1px;border-bottom-style: none;border-bottom-color: #ecf0f1;border-top-style: none;border-right-style: none;border-left-style: none;font-size: 28px;font-weight: 100;color: #ffffff;border-radius: 5px;">
-    </div>
-    <button type="submit" class="btn btn-secondary mb-2" style="color: #F15A29 margin: 20px;background-color:#F15A29;display:inline-block;color:#ffffff;font-size:28px;font-weight: 500;padding:6px 50px;text-decoration:none;border-radius: 5px;">Submit</button>
-  </form>
+  <h1 class="mailText">Get our daily food items delivered to your email</h1>
+  <div class="mail">
+    <form id="email" action="/action_page.php">
+    <input type="email" name="email" class="formStyle" placeholder="Your Email">
+    <button type="submit"  class="btn btn-primary" form="email" value="Submit">Submit</button>
+    </form>
+  </div>
 </div>
+<!-- menu-->
+<div class="col-md-12 footer">
+  <div class="social">
+    <h1 style="color:#ffffff;"><img src="images/assets/footerlogos/logo_white.png"  class="img-responsive" style="display:inline" alt="fastfood" width="" height=""> MENU</h1>
+    <h3>Thats What We Are</h3><br/>
+    <img src="images/assets/footerlogos/facebook.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+    <img src="images/assets/footerlogos/twitter.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height="">
+    <img src="images/assets/footerlogos/pinterest.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><br/><br/><br/>
+    <h4>2016 Menu Restaurant</4>
+    </div>
+  </div>
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
